@@ -7,6 +7,7 @@ body {
 	font-family: "Hiragino kaku Gothic ProN","Hiragino sans","BIZ UDPGoshic", sans-serif;
 	line-height: 1.7;
 	color: #2B5F75;
+	background-image: url(../images/image1.jpg);
 }
 a {
 	text-decoration: none;
@@ -15,29 +16,16 @@ img {
 	max-width: 100%;
 }
 /* レイアウト */
-.wrapper {
-	max-width: 1120px;
-	margin: auto;
-	padding: 0 1.5rem;
-}
 .align-center {
 	text-align: center;
-}
-.cover {
-	background-size: cover;
-	background-position: center bottom;
-	height: 800px;
 }
 .cover-home {
 	background-image: url(../images/image1.jpg);
 }
-.about {
-	max-width: 736px;
-	padding: 0 1.5rem;
-	margin: 3rem auto 0;
-}
-.about p {
-	margin-bottom: 3rem;
+.cover {
+	background-image: url(../images/image1.jpg);
+	background-size: cover;
+	background-position: center bottom;
 }
 
 /* プロフィール */
@@ -78,7 +66,7 @@ img {
 
 /* 見出し */
 .font-english {
-	font-family: 'Philosopher', sans-serif;
+	font-family: 'Yu Gdhic', sans-serif;
 	font-weight: normal;
 }
 .page-title, 
@@ -95,12 +83,7 @@ img {
 }
 
 /* ヘッダー*/
-.page-header {
-	padding-top: .5rem;
-}
-.logo {
-	width: 210px;
-}
+
 .main-nav {
 	display: flex;
 	justify-content: center;
