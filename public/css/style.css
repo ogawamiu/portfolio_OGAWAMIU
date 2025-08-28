@@ -19,14 +19,14 @@ img {
 .align-center {
 	text-align: center;
 }
-.cover-home {
+/*.cover-home {
 	background-image: url(../images/image1.jpg);
 }
 .cover {
 	background-image: url(../images/image1.jpg);
 	background-size: cover;
 	background-position: center bottom;
-}
+}*/
 
 /* プロフィール */
 .plo {
