@@ -12,104 +12,124 @@
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Philosopher&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Amatic+SC&display=swap" rel="stylesheet">
 		
 		<link rel="stylesheet" href="../css/style.css">
     </head>
-    
-    <body>
-	<div class="cover cover-home">
-       <header class="page-header wrapper">
-		   <h1 class="align-center">
-			<img class="header" src="" alt="ポートフォリオのヘッダー画像">		
-		   </h1>
-		   <nav>
-			   <ul class="main-nav font-enlish">
-				   <li><a href="news.html">profile</a></li>
-				   <li><a href="menu.html">Works</a></li>
-				   <li><a href="contact.html">Skill</a></li>
-			   </ul> 
-		   </nav>
-	   </header>
-    </div>
-    
-    <section class="plofile">
-		<h3 class="heading-large font-english">plofile</h3>
-			<table class="plo">
-				<tr>
-					<td>株式会社ナレッジシェアード</td>
-				</tr>
-				<tr>
-					<td>名前</td>
-					<td>小川&nbsp;美宥</td>
-				</tr>
-				<tr>
-					<td>出身地</td>
-					<td>秋田県</td>
-				</tr>
-				<tr>
-					<td>誕生日</td>
-					<td>2000/05/02</td>
-				</tr>
-					
-			</table>
-			
-    <section class="Works">
-		<h3 class="heading-large font-english">Works</h3>
-			<table class="history">
-				<tr>
-					<td>2025/07～&emsp;</td>
-					<td>株式会社ナレッジシェアード</td>
-					<td>研修</td>
-				</tr>
-				<tr>
-					<td>2025/05～2025/06</td>
-					<td>ポールトゥウィン株式会社</td>
-					<td>テスター</td>
-				</tr>
-				<tr>
-					<td>2025/04～2025/02</td>
-					<td>株式会社ネクサーズ</td>
-					<td>事務</td>
-				</tr>
-				<tr>
-					<td>2024/12～2022/4</td>
-					<td>株式会社オートサーバー</td>
-					<td>事務</td>
-				</tr>
-			</table>
-	</section>
-	
-	<section class="Skill">
-		<h3 class="heading-large font-english">Skill</h3>
-			<table class="sk">
-				<tr>
-					<td colspan="2" rowspan="2">java</tdcolspan="2" rowspan="2">
-					<td>Javaの基礎構文（変数、入出力、演算子、配列、条件分岐、繰り返し）</td>
-				</tr>
-				<tr>
-					<td>Javaの応用構文（パッケージ、例外処理、コレクションフレーム）</td>
-				</tr>
-				<tr>
-					<td colspan="2" rowspan="2">Orcle</tdcolspan="2" rowspan="2">
-					<td>ユーザーと権限、テーブル、CRUD、トランザクションとロック、演算子と述語</td>
-				</tr>
-				<tr>
-					<td>集約、並び替え、結合、サブクエリ、シーケンス、JDBC、データ設計</td>
-				</tr>
+		   
+	<body>
+			<header class="header">
+		   	 <div class="header-inner">
+				<p class="header-title">Ogawa Miu</p>
+				<p class="header-subtitle">Portfolio</p>
+				</div>
+			</header>
 
-			</table>
-		
+		   <nav class="gnavi">
+			  <div class="gnavi-inner">
+				  <ul class="gnavi-list">
+					  <li class="gnavi-item"><a href="#About me">about me</a></li>
+					  <li class="gnavi-item"><a href="#skill">skill</a></li>
+					  <li class="gnavi-item"><a href="#works">works</a></li>
+					  <li class="gnavi-item"><a href="#contact">contact</a></li>
+				  </ul>
+			  </div>
+		   </nav>
+    
+    <section class="about section" id="about">
+		<div class="inner">
+			<h2 class="title">about me</h2>
+			<div class="profile">
+				<p class="profile-img">
+					<img src="../images/自画像(わんこ).jpg" alt="自画像"></p>
+				</p>
+				<div class="profile-body">
+					<p>
+						はじめまして、小川美宥と申します。
+					</p>
+					<p>
+						秋田県出身で、高校卒業とともに上京し関東での暮らしは6年目になります。
+					</p>
+					<p>
+						今まで、事務として資料作成やデータ集計などのサポート業務をメインに行ってきました。
+						その後、アプリやソフトウェアのテスト業務につき、手順書とfigmaで作成されたワイヤーフレームなどと照らし合わせながら、
+						動作やレイアウト面のテストを行っておりました。
+					</p>
+					<p>
+						現在は、IT研修にてJava・Oracle・HTML/CSS・Springを学習しました。その中でも、実践的な開発環境を模した開発演習では、
+						今までの学習を組み合わせながらチームと個人両方で取り組みました。
+					</p>
+					<p>
+						チーム同士で、学習の振り返りやコードの書き方など色んな人の考え方を知ることで、より自身の理解や得意不得意の発見につなげることができました。
+					</p>
+				</div>
+			</div>
+		</div>
 	</section>
+    
+    <section class="skill section" id="skill">
+		<div class="inner">
+			<h2 class="title">skill</h2>
+			<div class="skill-list">
+				<div class="skill-item">
+					<div class="skill-body">
+						<h3 class="skill-name">Java</h3>
+						<p class="skill-text">
+							Javaの基礎構文（変数、入出力、演算子、配列、条件分岐、繰り返し）Javaの応用構文（パッケージ、例外処理、コレクションフレーム）</p>
+					</div>
+				</div>
+				<div class="skill-item">
+					<div class="skill-body">
+						<h3 class="skill-name">Oracle</h3>
+						<p class="skill-text">
+							ユーザーと権限、テーブル、CRUD、トランザクションとロック、演算子と述語、集約、並び替え、結合、サブクエリ、シーケンス、JDBC、データ設計</p>
+					</div>
+				</div>
+				<div class="skill-item">
+					<div class="skill-body">
+						<h3 class="skill-name">HTML/CSS</h3>
+						<p class="skill-text">
+							HTML（HTML概要、タグの種類、フォーム）/ CSS（プロパティの種類、ブロック構造、ページレイアウト）</p>
+					</div>
+				</div>
+				<div class="skill-item">
+					<div class="skill-body">
+						<h3 class="skill-name">Spring</h3>
+						<p class="skill-text">
+							画面遷移、フォーム処理、スコープ(リクエストスコープ・セッションスコープ)、データベース処理(CRUD/外部参照/JPQL)、入力チェック、メッセージ出力、フィルタ、Thymeleaf</p>
+					</div>
+				</div>
+			</div>
+		</div>
+    </section>
+    
+    <section class="Works section" id="works">
+		<div class="inner">
+			<h2 class="title">works</h2>
+			<div class="works-list">
+				<a class="works-list" href="https://yummy-middle-e92.notion.site/_-22b2a2475be180c49e60e6e0acc87e1a?source=copy_link">
+					<p class="works-img"><img src="../images/仕事画像.png"></p>
+					<p class="works-name">Notion</p>
+				</a>
+				<a class="works-list" href="https://github.com/ogawamiu/ogawamiu.git">
+					<p class="works-img"><img src="../images/仕事画像.png"></p>
+					<p class="works-name">練習問題</p>
+				</a>
+				<a class="works-list" href="https://github.com/daknv185/consoleapp_room2.git">
+					<p class="works-img"><img src="../images/仕事画像.png"></p>
+					<p class="works-name">ペア演習</p>
+				</a>
+				<a class="works-list" href="https://github.com/ogawamiu/rt2-spring-app.git">
+					<p class="works-img"><img src="../images/仕事画像.png"></p>
+					<p class="works-name">個人開発演習</p>
+				</a>
+			</div>
+		</div>
+    </section>
 	
-	<section class="URL">
-		<h3 class="heading-large font-english">URL</h3>
-			<a href="https://github.com/ogawamiu/ogawamiu.git">練習問題</a>
-			<a href="https://github.com/daknv185/consoleapp_room2.git">演習問題</a>
-		
-	</section>
-	
-	<footer class="page-footer">
-		<h3 class="heading-large font-english">Contact</h3>
+	<section class="contact section" id="contact">
+		<div class="inner">
+			<h2 class="title">contact</h2>
 		<table class="info">
 			<tr>
 				<th>住所</th>
@@ -124,6 +144,9 @@
 				<td>03-3526-2992</td>
 			</tr>
 		</table>
+		</div>
+	</section>
+
 		<div class="copyright">
 			<small>株式会社ナレッジシェアード</small>
 		</div>
