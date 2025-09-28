@@ -68,9 +68,9 @@ h1, h2, h3 {
   justify-content: center;
 }
 .profile-img img {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
+  width: 170px;
+  height: 160px;
+  border-radius: 100%;
 }
 .profile-body {
   max-width: 500px;
