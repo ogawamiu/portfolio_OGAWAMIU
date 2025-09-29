@@ -102,26 +102,35 @@ h1, h2, h3 {
 }
 
 /* ===== Works ===== */
+
 .works-list {
   display: flex;
   gap: 30px;
   flex-wrap: wrap;
   justify-content: center;
 }
-.works-list a {
+
+.works-item {
   text-align: center;
   border: none;
   background: none;
   padding: 0;
-  width: auto;
+  width: 180px; 
 }
-.works-img img {
+
+.works-img {
   width: 100px;
 }
+
 .works-name {
   font-size: 14px;
   color: #2a4d7f;
   margin-top: 5px;
+  text-align: center;
+}
+
+.figure {
+  margin: 0;
 }
 
 /* ===== contact ===== */
@@ -165,3 +174,6 @@ h1, h2, h3 {
 	margin-top: 3rem;
 	color: #2a4d7f;
 }
+
+
+
